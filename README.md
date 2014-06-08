@@ -19,13 +19,12 @@ USAGE:
 
 - GET http://localhost:8088/gomongo/services/people/6466761235764 
 - GET http://localhost:8088/gomongo/services/people/
-- POST http://localhost:8088/gomongo/services/people/
-	Body: {"name":"YTRETRERETYRE","phone":"+55 53 8116 9639"}
-- PUT http://localhost:8088/gomongo/services/people/6466761235764
-	Body: {"name":"NEW NAME","phone":"+55 53 8116 9639"}
-- DELETE http://localhost:8088/gomongo/services/people/6466761235764
+- POST http://localhost:8088/gomongo/services/people/ <br>
+	Body: {"name":"YTRETRERETYRE","phone":"+55 53 8116 9639"} <br>
+- PUT http://localhost:8088/gomongo/services/people/6466761235764 <br>
+	Body: {"name":"NEW NAME","phone":"+55 53 8116 9639"}<br>
+- DELETE http://localhost:8088/gomongo/services/people/6466761235764 <br>
 
-Note: 
-	/gomongo/services is the URL that the service listens to 
-	'people' is the name of the mongodb collections in the above examples
+Note: <br>
+	/gomongo/services is the URL that the service listens to 'people' is the name of the mongodb collections in the above examples
 	
