@@ -16,16 +16,16 @@ db.go       :  Provides wrapper methods to mGO(a native mongoDB driver in GO) CR
 testdb.go   :  Test functions for db.go
 
 USAGE:
-======
-GET http://localhost:8088/gomongo/services/people/6466761235764
-GET http://localhost:8088/gomongo/services/people/
-POST http://localhost:8088/gomongo/services/people/
-	Body: {"name":"YTRETRERETYRE","phone":"+55 53 8116 9639"}
-PUT http://localhost:8088/gomongo/services/people/6466761235764
-	Body: {"name":"NEW NAME","phone":"+55 53 8116 9639"}
-DELETE http://localhost:8088/gomongo/services/people/6466761235764
 
-note: 
+- GET http://localhost:8088/gomongo/services/people/6466761235764 
+- GET http://localhost:8088/gomongo/services/people/
+- POST http://localhost:8088/gomongo/services/people/
+	Body: {"name":"YTRETRERETYRE","phone":"+55 53 8116 9639"}
+- PUT http://localhost:8088/gomongo/services/people/6466761235764
+	Body: {"name":"NEW NAME","phone":"+55 53 8116 9639"}
+- DELETE http://localhost:8088/gomongo/services/people/6466761235764
+
+Note: 
 	/gomongo/services is the URL that the service listens to 
 	'people' is the name of the mongodb collections in the above examples
 	
