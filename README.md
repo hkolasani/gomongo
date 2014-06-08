@@ -11,7 +11,7 @@ To use it in a real web app environment, the code needs to be beefed up with som
 
 This project consists of the following three files. It has a dependency on labix.org/v2/mgo
 
-- mongoweb.go :  The main GO program that runs as a HTTP Server and processes the GET,POST,PUT and DELETE requests 
+- mongoweb.go :  Main program (HTTP Server)- handles GET,POST,PUT and DELETE
 - db.go       :  Provides wrapper methods to mGO(a native mongoDB driver in GO) CRUD fucntions
 - testdb.go   :  Test functions for db.go
 
