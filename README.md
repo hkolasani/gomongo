@@ -1,7 +1,7 @@
 gomongo
 =======
 
-A Simple REST API for MongoDB in GO!
+A Simple REST API for mongoDB in GO!
 
 Enables the mongoDB CRUD operations on any collection using simple HTTP REST calls. 
 
