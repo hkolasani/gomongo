@@ -19,6 +19,7 @@ USAGE:
 
 - GET http://localhost:8088/gomongo/services/people/6466761235764 
 - GET http://localhost:8088/gomongo/services/people/
+- GET http://localhost:8088/gomongo/services/people?q={"name"="Jensing"}&select={"name":1,"phone":1}&limit=20&sort=-phone
 - POST http://localhost:8088/gomongo/services/people/ <br>
 	Body: {"name":"YTRETRERETYRE","phone":"+55 53 8116 9639"} <br>
 - PUT http://localhost:8088/gomongo/services/people/6466761235764 <br>
